@@ -1,0 +1,92 @@
+body{
+    background-color: chartreuse;
+}
+
+p.special{
+    color: rgba(233, 42, 42, 0.849);
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+p.main{
+    color: black;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 10px;
+    text-align: center;
+}
+
+a:any-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: medium;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: chartreuse;
+}
+
+.green{
+    background-color: chartreuse;
+    height: 4px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border: 0px;
+}
+
+.white{
+    color: white;
+    width: 2.px;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
+
+.center{
+    font-size: xx-large;
+    color: rgb(67, 207, 11);
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.795);
+}
+
+img{
+align-self: center;
+}
+
+table.center{
+    margin: auto;
+}
+
+.border{
+    border-radius: 20px;
+    border-width: 7px;
+    background: radial-gradient(rgb(104, 103, 103), black);
+    box-shadow: -3px 3px 10px rgb(0, 0, 0);
+}
+
+.videos{
+    border-radius: 20px;
+    box-shadow: -3px 3px 10px rgb(0, 0, 0);
+    border-width: 5px;
+   object-fit: inherit;  
+}
+
+.powerclip{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    box-shadow: -3px 3px 10px #000;
+}
+
+button{
+    border-radius: 10px;
+    background-color: #131313;
+    border-width: 2px;
+    border-color: chartreuse;
+    box-shadow: -3px 3px 10px #000;
+}
